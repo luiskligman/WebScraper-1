@@ -1,0 +1,14 @@
+Setting up / Creating venv 
+	python3 -m venv ai
+	source ai/bin/activate
+
+Install requirements
+	pip install -r requirements.txt
+
+Download chrome driver
+	https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/mac-	arm64/chromedriver-mac-arm64.zip
+
+Run application
+	streamlit run main.py
+
+Current Setup uses LLM Ollama
